@@ -1,0 +1,9 @@
+.cute{
+    background-color: pink;
+}
+
+.copyright_footer{
+    background-color: purple;
+    position: sticky;
+    bottom: 0;
+}

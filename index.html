@@ -1,0 +1,220 @@
+<html>
+<head>
+    <title>Realtime Image Identification</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+  </head>
+  <body>
+<center>
+<ol class="cute">
+   <div class="test_images_and_result">
+       <li><b>Test Image-</b><img src="book.jpeg" class="img-responsive"></li>
+   </div> 
+
+   <h5> Output on <b>Microsoft Azure- </b>
+    <span>Close Up of a logo</span>
+</h5>
+
+<h5> Output on <b>Mobilenet- </b>
+    <span>Comic Book</span>
+</h5>
+   
+<div class="bob3">
+    <h4>Result</h4>
+    <hr>
+    <h4>Mobilenet is more accurate</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="comb.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- </b>
+ <span>comb</span>
+</h5>
+
+<h5> Output on <b>Mobilenet- </b>
+ <span>Comb</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Both are Same</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="glasses.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- glass bowl</b>
+ <span></span>
+</h5>
+
+<h5> Output on <b>Mobilenet- table</b>
+ <span></span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Microsoft Azure is better</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="pen.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- </b>
+ <span>A Device</span>
+</h5>
+
+<h5> Output on <b>Mobilenet- </b>
+ <span>Ballpen</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Mobilenet is more accurate</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="perfume.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure</b>
+ <span>Bottle</span>
+</h5>
+
+<h5> Output on <b>Mobilenet-  </b>
+ <span>Spray</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Microsoft Azure is better</h4>
+</div>
+</div>
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="photo.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure-</b>
+ <span> painting</span>
+</h5>
+
+<h5> Output on <b>Mobilenet-</b>
+ <span>TV</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Microsoft Azure is more Acurrate</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="piano.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure-</b>
+ <span>piano</span>
+</h5>
+
+<h5> Output on <b>Mobilenet- </b>
+ <span>Piano</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Both are Same</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="scissors.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- </b>
+ <span>scissors</span>
+</h5>
+
+<h5> Output on <b>Mobilenet-</b>
+ <span> scissors</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Both are Same</h4>
+</div>
+</div>
+
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="shoes.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- </b>
+ <span>shoes</span>
+</h5>
+
+<h5> Output on <b>Mobilenet-</b>
+ <span>Cowbpy Boots</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Microsoft Azure is more Accurate</h4>
+</div>
+</div>
+
+<div class="test_images_and_result">
+    <li><b>Test Image-</b><img src="vase.jpeg" class="img-responsive"></li>
+</div> 
+
+<h5> Output on <b>Microsoft Azure- </b>
+ <span>flowers</span>
+</h5>
+
+<h5> Output on <b>Mobilenet-</b>
+ <span>vase</span>
+</h5>
+
+<div class="bob3">
+ <h4>Result</h4>
+ <hr>
+ <h4>Mobilenet is more Accurate</h4>
+</div>
+</div>
+
+<div class="cute">
+    Since most images were recognised correct by Microsoft Azure it is better
+</div>
+
+<div class="copyright_footer">
+    Made By Kairavbir Singh Malhotra
+</div>
+
+</ol>
+</center>
+<script src="main.js"></script>
+  </body>
+  </html>
